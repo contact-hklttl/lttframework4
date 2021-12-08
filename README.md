@@ -15,8 +15,6 @@ cd packages/smfw-cms && yarn start
 
 # Example
 ```ts
-import _ from 'lodash';
-
 import { Engine, templates, themes, slices, createStore, createReducer } from '@smfw/web';
 
 const engine = new Engine();
