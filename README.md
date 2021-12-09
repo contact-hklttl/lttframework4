@@ -1,17 +1,23 @@
 # Installation
-lerna bootstrap<br/>
+```sh
+lerna bootstrap
 lerna exec yarn
+```
 
 # Test
 ### @smfw/web
-lerna --scope=@smfw/web run start<br/>
-or<br/>
+```sh
+lerna --scope=@smfw/web run start
+#or
 cd packages/smfw-web && yarn start
+```
 
 ### @smfw/cms
-lerna --scope=@smfw/cms run start<br/>
-or<br/>
+```sh
+lerna --scope=@smfw/cms run start
+#or
 cd packages/smfw-cms && yarn start
+```
 
 # Example
 ```ts
@@ -32,5 +38,4 @@ engine.addPage({
 );
 
 engine.start({ store });
-
 ```
